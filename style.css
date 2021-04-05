@@ -1,0 +1,36 @@
+html, body {
+    height: 100%; 
+}
+body {
+    background: url("grim.jpg") no-repeat top right;
+    position: relative; 
+}
+ article:not(.text-center) {
+     height: 100%;
+     background-color:lightgray;
+     box-shadow: 10px 10px 8px #888888;
+ }
+
+ h3{
+     color:grey;
+ }
+ img {
+     padding-top: 3em;
+     width: 70%;
+ }
+ p {
+     font-size: 2em;
+     letter-spacing: 4px;
+     display:block;
+ }
+ input#letter {
+     width: 2em;
+     display: inline-block;
+ }
+ span{
+     font-size: 1.5em;
+     color: red;
+ }
+ label {
+    width: 3em;
+ }
